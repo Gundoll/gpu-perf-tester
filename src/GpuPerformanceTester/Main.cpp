@@ -23,7 +23,7 @@ int main(int argc, _TCHAR* argv[]) {
         return 1; // Initialization failed
     }
 
-    cout << "GPU COUNT: " << gpuCount << endl;
+    //cout << "GPU COUNT: " << gpuCount << endl;
 
     while (true) {
         NV_GPU_THERMAL_SETTINGS thermal = {};
